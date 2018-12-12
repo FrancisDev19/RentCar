@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Google font-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="/css/index.css">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="/img/logoPagina.png" type="image/x-icon">
+    <title>Abimael Rentcar</title>
+</head>
+
+<body>
+
+    <nav class="navbar container">
+        <a href="./" class="navbar-brand">
+            <img src="/img/logo.png" alt="" width="150">
+        </a>
+        <div class="nav menu text-center">
+            <a href="./" class="nav-item mr-3 text-dark">Inicio</a>
+            <a href="#" id="btn-vehiculos" class="nav-item mr-3 text-dark">Vehiculos</a>
+            <a href="/about" class="nav-item mr-3 text-dark">Nosotros</a>
+            <a href="#" id="btn-contacto2" class="nav-item mr-3 text-dark">Contacto</a>
+        </div>
+    </nav>
+
+    <header class="header">
+
+        <div class="header-content text-center">
+            <h1 class="title display-3">Abimael Rent car</h1>
+            <hr class="bg-white">
+            <p class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolores quibusdam ab aspernatur?</p>
+            <a href="#" class="btn btn-primary btn-large" id="btn-form">
+                Rentar ahora
+            </a>
+        </div>
+
+    </header>
+
+    <!-- SERVICIOS -->
+    <section class="services container my-5">
+        <h2 class="title text-center my-5">Servicios</h2>
+            <div class="row text-center mx-auto">
+                <div class="service col-md-4">
+                    <img src="/img/services/247.png" alt="" class="icono img-fluid" />
+                    <h4 class="title">Servicio 24/7</h4>
+                    <p class="parrafo">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+                        quasi!
+                    </p>
+                </div>
+                <div class="service col-md-4">
+                    <img src="/img/services/entrega.png" alt="" class="icono img-fluid" />
+                    <h4 class="title">Entrega Inmediata</h4>
+                    <p class="parrafo">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+                        quasi!
+                    </p>
+                </div>
+                <div class="service col-md-4">
+                    <img src="/img/services/vip.png" alt="" class="icono img-fluid" />
+                    <h4 class="title">Transporte VIP</h4>
+                    <p class="parrafo">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+                        quasi!
+                    </p>
+                </div>
+            </div>
+    </section>
+    <!-- FIN DE SERVICIOS -->
+
+    <!-- VEHICULOS -->
+    <section class="galeria" id="galeria">
+      <div class="foto"><img src="/img/gallery/g (6).jpg" alt="" /></div>
+      <div class="foto"><img src="/img/gallery/g (2).jpg" alt="" /></div>
+      <div class="foto"><img src="/img/gallery/g (3).jpg" alt="" /></div>
+      <div class="foto"><img src="/img/gallery/g (4).jpg" alt="" /></div>
+    </section>
+    <!-- FIN VEHICULOS -->
+
+    <!-- FORMULARIO -->
+    <section class="formulario" id="contactForm">
+        <form method="get" class="shadow p-3 mb-5 bg-white rounded col-md-4 col-sm-8 text-center my-4 mx-auto">
+            <h3 class="title my-4">Envíe su solicitud ahora!</h3>
+            <div class="form-group">
+                <label for="name">Nombre completo:</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Numero telefonico:</label>
+                <input type="text" id="phone" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electronico:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Comentario</label>
+                <textarea id="message" class="form-control" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-block" value="Solicitar">
+            </div>
+        </form>
+    </section>
+    <!-- FIN DE FORMULARIO -->
+
+    <!-- CONTACTO -->
+    <section class="contacto my-5" id="contacto">
+        <h3 class="title text-center my-5">Contacto</h3>
+
+        <div class="row">
+            <div class="office col-md-4">
+                <h4 class="title">Oficina en Santo Domingo</h4>
+                <p class="ubicacion">Lorem ipsum dolor sit amet.</p>
+                <p class="cel">(809)-888-8888</p>
+            </div>
+            <div class="office col-md-4">
+                <h4 class="title">Oficina en La Romana</h4>
+                <p class="ubicacion">Lorem ipsum dolor sit amet.</p>
+                <p class="cel">(809)-777-7777</p>
+            </div>
+            <div class="office col-md-4">
+                <h4 class="title">Oficina en Santiago</h4>
+                <p class="ubicacion">Lorem ipsum dolor sit amet.</p>
+                <p class="cel">(809)-555-5555</p>
+            </div>
+        </div>
+
+        <div class="map my-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7569.86305514324!2d-69.00402521173368!3d18.441417794232635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf56a83c684255%3A0x782a81f0ebf14038!2sMinerva+Mirabal%2C+La+Romana+22000!5e0!3m2!1ses!2sdo!4v1541623270098"
+                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row redes-sociales mx-auto my-3">
+            <div class="red mx-2">
+                <a href="#" class="facebook">
+                <img src="/img/redes/036-facebook.png" alt="" width="30">
+            </a>
+            </div>
+            <div class="red mx-2">
+                <a href="#" class="twitter">
+                <img src="/img/redes/008-twitter.png" alt="" width="30">
+            </a>
+            </div>
+            <div class="red mx-2">
+                <a href="#" class="whatsapp">
+                <img src="/img/redes/005-whatsapp.png" alt="" width="30">
+            </a>
+            </div>
+      </div>
+      <p>Abimael rent car &copy; 2018</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!--SLIDE -->
+    <script src="/js/slide.js"></script>
+</body>
+
+</html>
