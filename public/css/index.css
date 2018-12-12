@@ -16,11 +16,10 @@ nav {
 
 .header {
     height: 70vh;
-    background-image: url('../img/header-bg.jpg');
+        background-image: url('../img/bg-form.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +50,15 @@ nav {
 }
 
 .galeria .foto {
-    width: 25%;
+    width: 33.3%;
+    text-align: center;
+}
+
+.galeria span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 .galeria .foto img {
@@ -68,7 +75,7 @@ nav {
 }
 
 .formulario {
-    background-image: url('../img/bg-form.jpg');
+    background-image: url('../img/header-bg.jpg');
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -122,6 +129,6 @@ footer .redes-sociales {
 }
 
 .parrafo {
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.7;
 }
