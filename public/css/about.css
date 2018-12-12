@@ -16,7 +16,7 @@ nav {
 
 .header {
     height: 70vh;
-    background-image: url('/img/pexels-photo-1149831.jpeg');
+    background-image: url('../img/pexels-photo-1149831.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0;
