@@ -78,22 +78,27 @@
             <div class="form-group">
                 <label for="name">Nombre completo:</label>
                 <input type="text" id="name" class="form-control" required>
+                <div id="validation-name" class="text-danger my-3"></div>
             </div>
             <div class="form-group">
                 <label for="phone">Numero telefonico:</label>
                 <input type="text" id="phone" class="form-control" required>
+                <div id="validation-phone" class="text-danger my-3"></div>
             </div>
             <div class="form-group">
                 <label for="email">Correo Electronico:</label>
                 <input type="email" id="email" class="form-control" required>
+                <div id="validation-email" class="text-danger my-3"></div>
             </div>
             <div class="form-group">
                 <label for="message">Comentario</label>
                 <textarea id="message" class="form-control" rows="3" required></textarea>
+                <div id="validation-message" class="text-danger my-3"></div>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary btn-block" value="Solicitar">
+                <input type="submit" class="btn btn-primary btn-block" id="btn-valid" value="Solicitar">
             </div>
+            <div id="success" class="text-success my-3"></div>
         </form>
     </section>
     <!-- FIN DE FORMULARIO -->
@@ -150,6 +155,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!--SLIDE -->
     <script src="public/js/slide.js"></script>
+    <script src="public/js/validation.js"></script>
 </body>
 
 </html>
